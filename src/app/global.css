@@ -1,0 +1,21 @@
+:root {
+  --dark: #151516;
+  --light: #f4f4f4;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0 1rem;
+  background-color: var(--light);
+  color: var(--dark);
+  font-family: sans-serif;
+}
+
+main {
+  margin: 0 auto;
+  max-width: 1200px;
+}

@@ -1,4 +1,4 @@
-import MainNav from '@/components/mainNav/MainNav';
+import './global.css';
 
 export const metadata = {
   title: 'React playground',
@@ -12,10 +12,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang='en'>
-      <body>
-        <MainNav />
-        {children}
-      </body>
+      <body>{children}</body>
     </html>
   );
 }
